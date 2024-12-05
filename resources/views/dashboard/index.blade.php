@@ -2,6 +2,51 @@
 @section('title', 'SMA Negeri Arjasa Jember')
 
 @section('content')
+    <style>
+        @media (max-width: 768px) {
+            .portfolio-details-carousel img {
+                max-height: 300px;
+                /* Atur tinggi maksimum untuk perangkat kecil */
+                object-fit: cover;
+                /* Memastikan gambar tidak terdistorsi */
+            }
+        }
+
+        .portfolio-details .portfolio-details-carousel img {
+            width: 100%;
+            /* Memastikan gambar memenuhi lebar kontainer */
+            height: 70vh;
+            /* Mempertahankan aspek rasio gambar */
+        }
+
+        .portfolio-caption {
+
+            text-align: center;
+            /* Teks berada di tengah */
+            background-color: #444444;
+            /* Warna latar belakang putih dengan transparansi */
+            padding: 10px;
+            /* Jarak antara teks dan tepi latar belakang */
+
+        }
+
+        .portfolio-caption h5 {
+            font-size: 2rem;
+            font-weight: bold;
+            text-align: left;
+            color: #ffffff;
+            margin-bottom: 20px;
+            padding-left: 15px;
+        }
+
+        .portfolio-caption p {
+            font-size: 1rem;
+            color: #ffffff;
+            padding-left: 15px;
+        }
+    </style>
+
+
     <section id="hero" class="d-flex align-items-center">
         <div class="container">
             <div class="row">
@@ -67,53 +112,9 @@
         <!-- ======= Portfolio Details Section ======= -->
         <section id="portfolio-details" class="portfolio-details section-bg">
             <div class="container" data-aos="fade-up">
-
                 <div class="section-title">
                     <h2>Berita Terbaru</h2>
                 </div>
-                <style>
-                    @media (max-width: 768px) {
-                        .portfolio-details-carousel img {
-                            max-height: 300px;
-                            /* Atur tinggi maksimum untuk perangkat kecil */
-                            object-fit: cover;
-                            /* Memastikan gambar tidak terdistorsi */
-                        }
-                    }
-
-                    .portfolio-details .portfolio-details-carousel img {
-                        width: 100%;
-                        /* Memastikan gambar memenuhi lebar kontainer */
-                        height: 70vh;
-                        /* Mempertahankan aspek rasio gambar */
-                    }
-
-                    .portfolio-caption {
-
-                        text-align: center;
-                        /* Teks berada di tengah */
-                        background-color: #444444;
-                        /* Warna latar belakang putih dengan transparansi */
-                        padding: 10px;
-                        /* Jarak antara teks dan tepi latar belakang */
-
-                    }
-
-                    .portfolio-caption h5 {
-                        font-size: 2rem;
-                        font-weight: bold;
-                        text-align: left;
-                        color: #ffffff;
-                        margin-bottom: 20px;
-                        padding-left: 15px;
-                    }
-
-                    .portfolio-caption p {
-                        font-size: 1rem;
-                        color: #ffffff;
-                        padding-left: 15px;
-                    }
-                </style>
                 <div class="portfolio-details-container text-center pt-5 ">
                     <div class="owl-carousel portfolio-details-carousel">
                         <div class="portfolio-item">

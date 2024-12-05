@@ -46,9 +46,9 @@ if (file_exists($hitsFile)) {
 
 // Reset today_visitors jika hari ini berbeda dari last_visit_date
 if ($data['last_visit_date'] !== $date) {
-    $data['today_visitors'] = 0; // Reset jumlah pengunjung hari ini
-    $data['today_hits'] = 0; // Reset jumlah hits hari ini
-    $data['last_visit_date'] = $date; // Update tanggal terakhir
+    $data['today_visitors'] = 0;
+    $data['today_hits'] = 0;
+    $data['last_visit_date'] = $date;
 }
 // Menambahkan pengunjung baru
 if (!in_array($ipAddress, array_column($data['visitors'], 'ip'))) {
@@ -62,8 +62,8 @@ $data['today_hits']++;
 
 // Simpan data
 file_put_contents($hitsFile, json_encode($data, JSON_PRETTY_PRINT));
-
 ?>
+
 <footer id="footer">
 
     {{-- <div class="footer-top"> --}}
