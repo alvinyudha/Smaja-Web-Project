@@ -1,0 +1,14 @@
+{
+    "total_visitors": 1,
+    "today_visitors": 1,
+    "total_hits": 19,
+    "today_hits": 19,
+    "visitors": [
+        {
+            "ip": "127.0.0.1",
+            "browser": "Mozilla\/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit\/537.36 (KHTML, like Gecko) Chrome\/131.0.0.0 Safari\/537.36",
+            "device": "Desktop"
+        }
+    ],
+    "last_visit_date": "05 Dec 2024"
+}
