@@ -62,6 +62,12 @@ Route::prefix('informasi')->group(function () {
         return view('informasi.detail-berita');
     });
 });
-Route::get('/kontak', function () {
-    return view('kontak.index');
+
+Route::prefix('kontak')->group(function () {
+    Route::get('/', function () {
+        return view('kontak.index');
+    });
+    Route::get('/buku-tamu', function () {
+        return view('kontak.buku-tamu');
+    });
 });
