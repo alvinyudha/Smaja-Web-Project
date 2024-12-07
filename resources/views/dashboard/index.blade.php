@@ -44,6 +44,49 @@
             color: #ffffff;
             padding-left: 15px;
         }
+
+        /* TABEL */
+        .table-wrapper {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-light {
+            background-color: #f8f9fa;
+        }
+
+        .table th,
+        .table td {
+            padding: 12px;
+            text-align: start;
+            /* border: 1px solid #ddd; */
+        }
+
+        @media (max-width: 600px) {
+
+            .table th,
+            .table td {
+                width: 100%;
+            }
+
+            .table tr {
+                margin-bottom: 15px;
+            }
+        }
+
+        a {
+            color: white;
+        }
+
+        a:hover {
+            color: #FBEF19;
+            text-decoration: none;
+        }
     </style>
 
 
@@ -120,21 +163,21 @@
                         <div class="portfolio-item">
                             <img src="{{ asset('img/portfolio/kwon.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-caption">
-                                <h5>Diklat Taekwondo SMAJA</h5>
+                                <h5><a href="#">Diklat Taekwondo SMAJA</a></h5>
                                 <p>Diklat ini dilaksanakan untuk...</p>
                             </div>
                         </div>
                         <div class="portfolio-item">
                             <img src="{{ asset('img/portfolio/kwon2.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-caption">
-                                <h5>Demo Ekskul Taekwondo SMAJA</h5>
+                                <h5><a href="#">Demo Ekskul Taekwondo SMAJA</a></h5>
                                 <p>Deskripsi untuk gambar 2.</p>
                             </div>
                         </div>
                         <div class="portfolio-item">
                             <img src="{{ asset('img/portfolio/basket.jpg') }}" class="img-fluid" alt="">
                             <div class="portfolio-caption">
-                                <h5>Tim Basket SMAJA</h5>
+                                <h5><a href="#">Tim Basket SMAJA</a></h5>
                                 <p>Deskripsi untuk gambar 3.</p>
                             </div>
                         </div>
@@ -202,7 +245,7 @@
                     <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
                             <img src="{{ asset('img/ekskul1.png') }}" class="img-fluid" alt="">
-                            <h4><a href="">VOLI</a></h4>
+                            <h4 class="mt-3"><a href="">VOLI</a></h4>
                         </div>
                     </div>
 
@@ -210,7 +253,7 @@
                         data-aos-delay="200">
                         <div class="icon-box">
                             <img src="{{ asset('img/ekskul2.png') }}" class="img-fluid" alt="">
-                            <h4><a href="">BASKET</a></h4>
+                            <h4 class="mt-3"><a href="">BASKET</a></h4>
                         </div>
                     </div>
 
@@ -218,7 +261,7 @@
                         data-aos-delay="300">
                         <div class="icon-box">
                             <img src="{{ asset('img/ekskul3.png') }}" class="img-fluid" alt="">
-                            <h4><a href="">TAEKWONDO</a></h4>
+                            <h4 class="mt-3"><a href="">TAEKWONDO</a></h4>
                         </div>
                     </div>
                 </div>
@@ -249,9 +292,19 @@
                             </thead>
                             <tbody>
                                 <tr>
-                                    <td>21-11-2024 s/d 02-12-2024</td>
+                                    <td>21 November 2024</td>
                                     <td>Sumatif Akhir Semester Tahun Ajaran 2024/2025</td>
                                     <td>Penilaian Sumatif Akhir Semester</td>
+                                </tr>
+                                <tr>
+                                    <td>10 Desember 2024</td>
+                                    <td>Kegiatan Akhir Semester</td>
+                                    <td>Kegiatan Akhir Semester SMAN Arjasa</td>
+                                </tr>
+                                <tr>
+                                    <td>20 Desember 2024</td>
+                                    <td>Penerimaan Rapor Semester Gasal Tahun Ajaran 2024</td>
+                                    <td>Penerimaan Rapor Semester Gasal Tahun Ajaran 2024</td>
                                 </tr>
                             </tbody>
                         </table>

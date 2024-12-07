@@ -2,6 +2,11 @@
 @section('title', 'SMA Negeri Arjasa Jember')
 
 @section('content')
+    <style>
+        .content-section p {
+            line-height: 1.5;
+        }
+    </style>
     <main id="main">
         <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
@@ -14,24 +19,30 @@
                 <div class="row content">
 
                     <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
-                        <div class="row content">
+                        <div class="row content-section">
                             <div class="col-lg-12">
                                 <h3>Widiwasito, S.Pd., M.Pd.</h3>
                                 <p>
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                                    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                    deserunt mollit anim id est laborum.4o
+                                    Assalamu’alaikum warahmatullahi wabarakatuh,
                                     <br>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                    laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                    architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia
-                                    voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos
-                                    qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum
-                                    quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi
-                                    tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                                    Salam sejahtera untuk kita semua,
+                                    <br>
+                                    <br>
+                                    Puji Syukur kami panjatkan kehadirat Allah SWT, Tuhan Yang Maha Esa karena atas karunia
+                                    dan berkah-Nya SMA Negeri Arjasa memberikan informasi pendidikan kepada masyarakat
+                                    melalui situs website SMA Negeri Arjasa.
+                                    <br>
+                                    <br>
+                                    SMA Negeri Arjasa berkomitmen untuk selalu memberikan pendidikan terbaik, yang tidak
+                                    hanya berfokus
+                                    pada pencapaian akademik, tetapi juga pada pembentukan karakter, pengembangan
+                                    keterampilan, serta penanaman nilai-nilai luhur. Dengan semangat "Unggul dalam Prestasi,
+                                    Mulia dalam Budi Pekerti," kita ingin memastikan bahwa setiap siswa di SMA Negeri Arjasa
+                                    mampu menjadi pribadi yang berintegritas, inovatif, dan siap menghadapi tantangan masa
+                                    depan.
+                                    <br>
+                                    <br>
+                                    Terima Kasih
                                 </p>
                             </div>
                         </div>

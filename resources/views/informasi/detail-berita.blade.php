@@ -94,19 +94,19 @@
             .breadcrumb {
                 list-style: none;
                 display: flex;
-                margin-left: -10px;
-                background-color: #ffffff;
+                background-color: transparent;
                 font-weight: bold;
-                font-size: 20px;
+                font-size: 16px;
+                white-space: nowrap;
             }
 
             .breadcrumb li {
-                margin-right: 10px;
+                margin-right: 5px;
             }
 
             .breadcrumb li+li:before {
-                content: ">";
-                margin-right: 10px;
+                content: "/";
+                margin-right: 5px;
             }
 
             .breadcrumb a {
@@ -117,6 +117,11 @@
                 text-decoration: underline;
             }
         </style>
+
+        <?php
+        date_default_timezone_set('Asia/Jakarta');
+        $date = date('h:i:s A');
+        ?>
         <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
@@ -125,19 +130,20 @@
                     <h2>Berita</h2>
                 </div>
 
-                <div class="col-mb-8">
+                <nav>
                     <ul class="breadcrumb">
                         <li><a href="#">Berita</a></li>
                         <li><a href="#">Kegiatan Sekolah</a></li>
                     </ul>
-                </div>
-
+                </nav>
+                <hr>
                 <div class="row content">
                     <div class="col-lg-8">
                         <div class="content-section">
                             <img src="{{ asset('img/berita1.png') }}" width="90%">
                             <h3 class="mt-3">SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
-                            <p class="article-meta">29 November 2024 | By Admin</p>
+                            <p class="article-meta mt-3" style="font-size: 14px;">29 November 2024, <?= $date ?> | By Admin
+                            </p>
                             <p>
                                 Apakah Sekolah Penggerak?
                             </p>
@@ -216,13 +222,16 @@
                                 <li class="mt-3 container3"><a href="#">Juara 1 Seni Tunggal Pencak Silat Tingkat
                                         Nasional
                                         2024</a> <br><small>10 September 2024</small></li>
+                                <li class="mt-3 container3"><a href="#">Memperingati Hari Pahlawan 10 November dengan
+                                        Cosplay Pahlawan di SMA Negeri Arjasa Jember
+                                        2024</a> <br><small>13 November 2024</small></li>
                             </ul>
                             <div class="sidebar-title mt-4"><strong>Agenda Sekolah</strong></div>
                             <hr>
                             <div class="container2">
                                 <div class="date">
                                     <div class="day">21</div>
-                                    <div class="month">DES</div>
+                                    <div class="month">NOV</div>
                                 </div>
                                 <div class="content">
                                     <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
@@ -230,32 +239,22 @@
                             </div>
                             <div class="container2 mt-3">
                                 <div class="date">
-                                    <div class="day">21</div>
+                                    <div class="day">10</div>
                                     <div class="month">DES</div>
                                 </div>
                                 <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
+                                    <a href="#">Kegiatan Akhir Semester</a>
                                 </div>
                             </div>
                             <div class="container2 mt-3">
                                 <div class="date">
-                                    <div class="day">21</div>
+                                    <div class="day">20</div>
                                     <div class="month">DES</div>
                                 </div>
                                 <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
+                                    <a href="#">Penerimaan Rapor Semester Gasal Tahun Ajaran 2024</a>
                                 </div>
                             </div>
-                            <div class="container2 mt-3">
-                                <div class="date">
-                                    <div class="day">21</div>
-                                    <div class="month">DES</div>
-                                </div>
-                                <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
-                                </div>
-                            </div>
-
                         </div>
 
                     </div>

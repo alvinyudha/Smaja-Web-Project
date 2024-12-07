@@ -89,7 +89,38 @@
             .sidebar a:hover {
                 text-decoration: underline;
             }
+
+            /* breadcumb */
+            .breadcrumb {
+                list-style: none;
+                display: flex;
+                background-color: transparent;
+                font-weight: bold;
+                font-size: 16px;
+                white-space: nowrap;
+            }
+
+            .breadcrumb li {
+                margin-right: 5px;
+            }
+
+            .breadcrumb li+li:before {
+                content: "/";
+                margin-right: 5px;
+            }
+
+            .breadcrumb a {
+                text-decoration: none;
+            }
+
+            .breadcrumb a:hover {
+                text-decoration: underline;
+            }
         </style>
+        <?php
+        date_default_timezone_set('Asia/Jakarta');
+        $date = date('h:i:s A');
+        ?>
         <!-- ======= About Us Section ======= -->
         <section id="about" class="about">
             <div class="container" data-aos="fade-up">
@@ -98,21 +129,24 @@
                     <h2>Prestasi</h2>
                 </div>
 
+                <nav>
+                    <ul class="breadcrumb">
+                        <li><a href="#">Prestasi</a></li>
+                        <li><a href="#">Kegiatan Siswa</a></li>
+                    </ul>
+                </nav>
+                <hr>
+
                 <div class="row content">
                     <div class="col-lg-8">
                         <div class="content-section">
                             <img src="{{ asset('img/prestasi.png') }}" width="90%">
                             <h3 class="mt-3">Tim Putri Pramuka SMAJA Meraih Juara 3 Pioneering Tingkat Kabupaten</h3>
-                            <p class="article-meta">29 November 2024 | By Admin</p>
-                            <p>
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                                laboris nisi ut aliquip ex ea commodo consequat.
+                            <p class="article-meta mt-3" style="font-size: 14px;">29 November 2024, <?= $date ?>| By Admin
                             </p>
                             <p>
-                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque
-                                laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-                                architecto beatae vitae dicta sunt explicabo.
+                                Alhamdulillah Tim Putri Pramuka SMAJA Juara 3 Lomba Pionering Tingkat Kabupaten Jember Saka
+                                Dirgantara di JSG Ajung Jember.
                             </p>
                             <div class="tags-title">TAGS:</div>
                             <div class="tags-container">
@@ -142,20 +176,24 @@
                         <div class="sidebar">
                             <div class="sidebar-title"><strong>Baca Lainnya</strong></div>
                             <hr>
-                            <ul class="list-unstyled">
+                            <ul>
                                 <li class="container3"><a href="#">Juara Harapan 1 C1 Race Downhill 76</a>
                                     <br><small>10 September
                                         2024</small>
                                 </li>
                                 <li class="mt-3 container3"><a href="#">Juara 1 Seni Tunggal Pencak Silat Tingkat
-                                        Nasional 2024</a> <br><small>10 September 2024</small></li>
+                                        Nasional
+                                        2024</a> <br><small>10 September 2024</small></li>
+                                <li class="mt-3 container3"><a href="#">Memperingati Hari Pahlawan 10 November dengan
+                                        Cosplay Pahlawan di SMA Negeri Arjasa Jember
+                                        2024</a> <br><small>13 November 2024</small></li>
                             </ul>
                             <div class="sidebar-title mt-4"><strong>Agenda Sekolah</strong></div>
                             <hr>
                             <div class="container2">
                                 <div class="date">
                                     <div class="day">21</div>
-                                    <div class="month">DES</div>
+                                    <div class="month">NOV</div>
                                 </div>
                                 <div class="content">
                                     <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
@@ -163,29 +201,20 @@
                             </div>
                             <div class="container2 mt-3">
                                 <div class="date">
-                                    <div class="day">21</div>
+                                    <div class="day">10</div>
                                     <div class="month">DES</div>
                                 </div>
                                 <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
+                                    <a href="#">Kegiatan Akhir Semester</a>
                                 </div>
                             </div>
                             <div class="container2 mt-3">
                                 <div class="date">
-                                    <div class="day">21</div>
+                                    <div class="day">20</div>
                                     <div class="month">DES</div>
                                 </div>
                                 <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
-                                </div>
-                            </div>
-                            <div class="container2 mt-3">
-                                <div class="date">
-                                    <div class="day">21</div>
-                                    <div class="month">DES</div>
-                                </div>
-                                <div class="content">
-                                    <a href="#">Sumatif Akhir Semester Tahun Ajaran 2024/2025</a>
+                                    <a href="#">Penerimaan Rapor Semester Gasal Tahun Ajaran 2024</a>
                                 </div>
                             </div>
                         </div>

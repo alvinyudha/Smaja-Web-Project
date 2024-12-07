@@ -12,10 +12,11 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-lg-4 " data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="box">
-                            <img src="{{ asset('img/prestasi1.png') }}" class="img-fluid" alt="">
-                            <h3>SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <img src="{{ asset('img/berita1.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <p><small>29 Nov 2024</small></p>
                             <p>Apakah Sekolah Penggerak?
                                 <br>
                                 Sekolah Penggerak adalah sekolah....
@@ -23,29 +24,29 @@
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box">
-                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
-                            <h3>Juara Tenis</h3>
-                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
-                            <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="box">
                             <img src="{{ asset('img/prestasi3.png') }}" class="img-fluid" alt="">
-                            <h3>Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
+                            <h3 class="mt-3">Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
+                            <p><small>29 Nov 2024</small></p>
                             <p>Alhamdulillah Tim Putri Pramuka SMAJA Juara 3 Lomba Pionering Tingkat.....</p>
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="box">
-                            <img src="{{ asset('img/prestasi1.png') }}" class="img-fluid" alt="">
-                            <h3>SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">Juara Tenis</h3>
+                            <p><small>29 Nov 2024</small></p>
+                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
+                            <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4 " data-aos="fade-up" data-aos-delay="100">
+                        <div class="box">
+                            <img src="{{ asset('img/berita1.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <p><small>29 Nov 2024</small></p>
                             <p>Apakah Sekolah Penggerak?
                                 <br>
                                 Sekolah Penggerak adalah sekolah....
@@ -53,28 +54,29 @@
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
-                        <div class="box">
-                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
-                            <h3>Juara Tenis</h3>
-                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
-                            <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="box">
                             <img src="{{ asset('img/prestasi3.png') }}" class="img-fluid" alt="">
-                            <h3>Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
+                            <h3 class="mt-3">Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
+                            <p><small>29 Nov 2024</small></p>
                             <p>Alhamdulillah Tim Putri Pramuka SMAJA Juara 3 Lomba Pionering Tingkat.....</p>
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="box">
-                            <img src="{{ asset('img/prestasi1.png') }}" class="img-fluid" alt="">
-                            <h3>SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">Juara Tenis</h3>
+                            <p><small>29 Nov 2024</small></p>
+                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
+                            <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="box">
+                            <img src="{{ asset('img/berita1.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">SMAN Arjasa Jember adalah salah satu sekolah penggerak di Jember</h3>
+                            <p><small>29 Nov 2024</small></p>
                             <p>Apakah Sekolah Penggerak?
                                 <br>
                                 Sekolah Penggerak adalah sekolah....
@@ -82,19 +84,21 @@
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="300">
                         <div class="box">
-                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
-                            <h3>Juara Tenis</h3>
-                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
+                            <img src="{{ asset('img/prestasi3.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
+                            <p><small>29 Nov 2024</small></p>
+                            <p>Alhamdulillah Tim Putri Pramuka SMAJA Juara 3 Lomba Pionering Tingkat.....</p>
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
-                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-lg-4 mt-4 mt-lg-0 mb-4" data-aos="fade-up" data-aos-delay="200">
                         <div class="box">
-                            <img src="{{ asset('img/prestasi3.png') }}" class="img-fluid" alt="">
-                            <h3>Tim Putri Pramuka SMAJA Meraih Juara 3 Pionering Tingkat Kabupaten</h3>
-                            <p>Alhamdulillah Tim Putri Pramuka SMAJA Juara 3 Lomba Pionering Tingkat.....</p>
+                            <img src="{{ asset('img/prestasi2.png') }}" class="img-fluid" alt="">
+                            <h3 class="mt-3">Juara Tenis</h3>
+                            <p><small>29 Nov 2024</small></p>
+                            <p>Kejuaraan daerah tenis provinsi Jawa Timur Tahun 2021</p>
                             <a href="/informasi/detail-berita" class="buy-btn">Selengkapnya</a>
                         </div>
                     </div>
