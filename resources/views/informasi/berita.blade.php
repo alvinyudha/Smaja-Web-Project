@@ -103,10 +103,9 @@
                         </div>
                     </div>
                 </div>
-
                 <div class="container text-center mt-5">
                     <nav>
-                        <ul class="pagination justify-content-center">
+                        <ul class="pagination justify-content-center flex-wrap">
                             <li class="page-item disabled">
                                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true">First</a>
                             </li>

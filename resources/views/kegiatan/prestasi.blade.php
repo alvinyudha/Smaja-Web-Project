@@ -2,6 +2,7 @@
 @section('title', 'SMA Negeri Arjasa Jember')
 
 @section('content')
+
     <main id="main">
         <!-- ======= About Us Section ======= -->
         <section id="pricing" class="pricing">
@@ -61,7 +62,7 @@
 
                 <div class="container text-center mt-5">
                     <nav>
-                        <ul class="pagination justify-content-center">
+                        <ul class="pagination justify-content-center flex-wrap">
                             <li class="page-item disabled">
                                 <a class="page-link" href="#" tabindex="-1" aria-disabled="true">First</a>
                             </li>
