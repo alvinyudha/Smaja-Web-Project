@@ -40,10 +40,13 @@ Route::prefix('kegiatan')->group(function () {
     Route::get('/', function () {
         return view('kegiatan.index');
     });
+    Route::get('/prestasi', function () {
+        return view('kegiatan.prestasi');
+    });
     Route::get('detail-prestasi', function () {
         return view('kegiatan.detail-prestasi');
     });
-    Route::get('ekstrakurikuler', function () {
+    Route::get('detail-ekstrakurikuler', function () {
         return view('kegiatan.detail-ekstrakurikuler');
     });
 });

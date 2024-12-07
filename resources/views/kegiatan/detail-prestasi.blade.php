@@ -136,7 +136,6 @@
                     </ul>
                 </nav>
                 <hr>
-
                 <div class="row content">
                     <div class="col-lg-8">
                         <div class="content-section">

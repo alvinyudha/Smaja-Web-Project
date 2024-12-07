@@ -227,7 +227,7 @@
                     </div>
                 </div>
                 <div class="text-center mt-5">
-                    <a href="#" class="buy-btn text-center">Selengkapnya</a>
+                    <a href="/kegiatan/prestasi" class="buy-btn text-center">Selengkapnya</a>
                 </div>
             </div>
         </section>
@@ -242,10 +242,17 @@
                 </div>
 
                 <div class="row">
+                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
+                        data-aos-delay="300">
+                        <div class="icon-box">
+                            <img src="{{ asset('img/ekskul3.png') }}" class="img-fluid" alt="">
+                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">TAEKWONDO</a></h4>
+                        </div>
+                    </div>
                     <div class="col-xl-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
                         <div class="icon-box">
                             <img src="{{ asset('img/ekskul1.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="">VOLI</a></h4>
+                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">VOLI</a></h4>
                         </div>
                     </div>
 
@@ -253,17 +260,10 @@
                         data-aos-delay="200">
                         <div class="icon-box">
                             <img src="{{ asset('img/ekskul2.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="">BASKET</a></h4>
+                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">BASKET</a></h4>
                         </div>
                     </div>
 
-                    <div class="col-xl-4 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/ekskul3.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="">TAEKWONDO</a></h4>
-                        </div>
-                    </div>
                 </div>
                 <div class="text-center mt-5">
                     <a href="#" class="buy-btn text-center">Selengkapnya</a>

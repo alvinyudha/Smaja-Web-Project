@@ -4,7 +4,7 @@
 @section('content')
     <main id="main">
         <!-- ======= About Us Section ======= -->
-        <section id="pricing" class="pricing section-bg">
+        <section id="pricing" class="pricing">
             <div class="container" data-aos="fade-up">
 
                 <div class="section-title">
@@ -58,73 +58,27 @@
                         </div>
                     </div>
                 </div>
-                <div class="text-center mt-5">
-                    <a href="/kegiatan/prestasi" class="buy-btn text-center">Lihat Lebih Lengkap</a>
+
+                <div class="container text-center mt-5">
+                    <nav>
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1" aria-disabled="true">First</a>
+                            </li>
+                            <li class="page-item disabled"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">></a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Last</a>
+                            </li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
         </section>
         <!-- End About Us Section -->
 
-        <!-- ======= Services Section ======= -->
-        <section id="services" class="services">
-            <div class="container" data-aos="fade-up">
-
-                <div class="section-title">
-                    <h2>Ekstrakurikuler</h2>
-                </div>
-
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/ekskul3.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">TAEKWONDO</a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/ekskul1.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">VOLI</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/ekskul2.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">BASKET</a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="100">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/bridge.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">BRIDGE</a></h4>
-                        </div>
-                    </div>
-
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="200">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/hegas.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">HEGAS WANA</a></h4>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-3" data-aos="zoom-in"
-                        data-aos-delay="300">
-                        <div class="icon-box">
-                            <img src="{{ asset('img/bola.png') }}" class="img-fluid" alt="">
-                            <h4 class="mt-3"><a href="/kegiatan/detail-ekstrakurikuler">SEPAK BOLA & FUTSAL</a></h4>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="text-center mt-5">
-                    <a href="#" class="buy-btn text-center">Lihat Lebih Lengkap</a>
-                </div>
-            </div>
-        </section>
-        <!-- End Services Section -->
+        <!-- End Portfolio Section -->
     </main>
 @endsection
