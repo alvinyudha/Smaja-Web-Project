@@ -52,7 +52,7 @@ if ($data['last_visit_date'] !== $date) {
 }
 // Menambahkan pengunjung baru
 if (!in_array($ipAddress, array_column($data['visitors'], 'ip'))) {
-    $data['visitors'][] = ['ip' => $ipAddress, 'browser' => $browser, 'device' => $deviceType];
+    $data['visitors'][] = ['ip' => $ipAddress, 'browser' => $browser, 'device' => $deviceType, 'date' => $date];
     $data['total_visitors']++;
     $data['today_visitors']++;
 }
@@ -80,7 +80,6 @@ file_put_contents($hitsFile, json_encode($data, JSON_PRETTY_PRINT));
                         margin-right: 10px;
                         vertical-align: middle;
                         /* Jarak antara ikon dan teks */
-
                     }
 
                     p {
@@ -99,7 +98,8 @@ file_put_contents($hitsFile, json_encode($data, JSON_PRETTY_PRINT));
                     <div class="social-links mt-3">
                         <a href="https://x.com/smajaku" class="twitter" target="_blank" rel="noopener noreferrer"><i
                                 class="bx bxl-twitter"></i></a>
-                        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.facebook.com/sman.arjasa" class="facebook" target="_blank"><i
+                                class="bx bxl-facebook"></i></a>
                         <a href="https://www.instagram.com/smaja.jember/?hl=id" class="instagram" target="_blank"
                             rel="noopener noreferrer"><i class="bx bxl-instagram"></i></a>
                         <a href="https://www.youtube.com/channel/UCNboWKzyb-M1HMQkFL7QKqg/featured"

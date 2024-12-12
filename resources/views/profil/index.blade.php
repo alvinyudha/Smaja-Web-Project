@@ -18,10 +18,9 @@
 
                 <div class="row content">
 
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+                    <div class="col-lg-8" data-aos="fade-left" data-aos-delay="100">
                         <div class="row content-section">
-                            <div class="col-lg-12">
-                                <h3>Widiwasito, S.Pd., M.Pd.</h3>
+                            <div class="col-lg-11">
                                 <p>
                                     Assalamu’alaikum warahmatullahi wabarakatuh,
                                     <br>
@@ -44,12 +43,16 @@
                                     <br>
                                     Terima Kasih
                                 </p>
+                                <br>
+                                <h5 style=" text-align: right;">Kepala Sekolah</h5>
+                                <h5 style=" text-align: right; text-decoration: underline"> Drs. Eddy Prayitno, M.Pd.</h5>
+                                <h5 style=" text-align: right;">NIP : 196504141990031009</h5>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-lg-4 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
-                        <img src="{{ asset('img/skills.png') }}" class="img-fluid" alt="">
+                    <div class="col-lg-4 mt-4 mt-lg-0" data-aos="fade-right" data-aos-delay="100">
+                        <img src="{{ asset('img/none.png') }}" class="img-fluid" alt="">
                     </div>
 
                 </div>

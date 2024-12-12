@@ -1,8 +1,8 @@
 {
     "total_visitors": 1,
     "today_visitors": 0,
-    "total_hits": 1064,
-    "today_hits": 257,
+    "total_hits": 1209,
+    "today_hits": 71,
     "visitors": [
         {
             "ip": "127.0.0.1",
@@ -10,5 +10,5 @@
             "device": "Desktop"
         }
     ],
-    "last_visit_date": "07 Dec 2024"
+    "last_visit_date": "12 Dec 2024"
 }
